@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // MongoDB connection string (replace <username>, <password>, and <database-name> with your actual MongoDB Atlas details)
-const url = 'mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database-name>?retryWrites=true&w=majority';
+const url = 'mongodb+srv://XantumViva:Oluwaseyi999@xantumcloud.nq7rc.mongodb.net/?retryWrites=true&w=majority&appName=xantumcloud';
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function connectToDatabase() {
